@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG Framework">
+
+	<!-- ================== CHROME TEST =============== -->
+	<test name="chome test">
+		<parameter name="browser" value="Ch"></parameter>
+
+		<classes>
+			<class name="Tests.TestPass"/>
+		</classes>
+	</test> <!-- Test -->
+
+	
+
+
+</suite> <!-- Suite -->
+
